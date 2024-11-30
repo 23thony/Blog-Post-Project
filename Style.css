@@ -1,0 +1,17 @@
+/* Bitter, Mukta Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Mukta+Malar:wght@200;300;400;500;600;700;800&display=swap');
+
+
+body{
+    font-family: "Mukta", sans-serif;
+    font-size: 16px; /* Default font size  */
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+}
+
+.content{
+    max-width:900px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
