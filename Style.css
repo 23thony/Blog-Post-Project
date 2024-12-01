@@ -1,5 +1,5 @@
-/* Bitter, Mukta Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Mukta+Malar:wght@200;300;400;500;600;700;800&display=swap');
+/* Bitter, Mukta Fonts, Space Mono */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Mukta+Malar:wght@200;300;400;500;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
 body{
@@ -47,6 +47,14 @@ h6{
     font-size:24px;
     letter-spacing: 0.75px;
 }
+
+code{
+    color: #e94100;
+    font-family: "Space Mono";
+    font-weight: bold;
+    background-color: rgba(188, 162, 46, 0.165);
+}
+
 .content{
     max-width:900px;
     margin: 0 auto;
@@ -87,3 +95,4 @@ h6{
     font-weight:bold;
     margin-left: 20px;
 }
+
